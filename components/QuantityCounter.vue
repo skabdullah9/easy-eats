@@ -13,7 +13,7 @@
         type="number"
         readonly
         value="1"
-        class="text-gray-300 font-mono w-14 h-auto text-center pl-3 bg-gray-600 bg-opacity-70 font-semibold text-2xl outline-none border-none "
+        class="text-gray-300 font-mono h-auto text-center md:pl-3 bg-gray-600 bg-opacity-70 font-semibold text-2xl outline-none border-none "
         min="1"
         max="20"
       />

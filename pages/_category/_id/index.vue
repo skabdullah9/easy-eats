@@ -42,7 +42,12 @@
             px-4
             py-2
             rounded-lg
-            inline-block
+            block
+            w-11/12
+            md:w-auto
+            mx-auto
+            md:mx-0
+            md:inline-block
             focus:bg-indigo-800
             hover:bg-indigo-800
           "

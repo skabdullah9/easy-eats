@@ -7,6 +7,7 @@
           mx-auto
           flex flex-wrap
           py-5
+          px-2
           flex-col
           md:flex-row
           items-center

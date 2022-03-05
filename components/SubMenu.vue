@@ -9,7 +9,8 @@
         justify-center
         gap-3
         md:gap-8
-        my-8
+        mt-3
+        mb-8
         mx-auto
         text-gray-400
         border-b border-gray-800

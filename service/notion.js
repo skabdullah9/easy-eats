@@ -49,10 +49,9 @@ async function getMenu() {
     const menuItem = {
       id: item.id,
       item_name: item.properties?.item_name?.title[0]?.plain_text,
-      item_image: item.properties?.item_image?.files[0]?.name,
+      item_image: item.properties?.item_image?.files[0]?.file?.url,
       item_price: item.properties?.item_price?.number
     }
-
     try {
       const tags = []
       for (const option of item.properties.item_tags.multi_select) {
@@ -124,7 +123,7 @@ getDbIdsAsync()
 module.exports = { getDbIdsAsync, getMenu, getOrder, submitOrderAsync }
 
 async function setupDbAsync() {
-  ;(async () => {
+  (async () => {
     const menuDb = await notion.databases.create({
       parent: { page_id: NOTION_PARENT_ID },
       title: [

@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-900 text-white">
+  <div class="min-h-screen bg-gray-900 text-white pb-10">
     <Navbar />
     <SubMenu />
     <transition name="home">
